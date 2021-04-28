@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+class num
+{
+    int a;
+public:
+    void setdata(int a)
+    {
+        this->a = a;
+    }
+    void getdata()
+    {
+        cout <<"The value of a is "<<a<<endl;
+    }
+};
+int main()
+{
+    num val;
+    val.setdata(6);
+    val.getdata();
+    return 0;
+}
